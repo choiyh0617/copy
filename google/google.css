@@ -1,0 +1,86 @@
+
+#main{
+    position: relative;
+}
+
+a{
+    margin: 10px;
+    text-decoration-line: none;
+    color: black;
+}
+#first{
+   text-align: left;
+   margin-top: 25px;
+}
+#second{
+    text-align: end;
+    margin-top: -20px;
+    margin-right: 110px;
+}
+#google{
+    width: 20%;
+    display: block;
+    margin-top: -40px;
+    margin-left: 680px;
+}
+input {
+    resize: none;
+    outline:none;
+    font-size:smaller;
+    height: 80%;
+    width: 90%;
+    border: none;
+    padding: 0 5px;
+    font-size: 15px;
+}
+#in{
+    margin-left: 10px;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    margin-top: -270px;
+    cursor: pointer; 
+}
+#find{
+    width: 30px;
+    height: 80%;
+    margin-left: 10px;
+}
+#searchBox {
+    width: 600px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px #d7dde5 solid;
+    border-radius: 50px;
+    padding: 0 5px;
+    margin: 20px 530px;
+}
+#mik{
+    width:70px;
+    height: 70%;
+    margin-right: 10px;
+}
+#views{
+    /* background-color: aqua; */
+    width: 290px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    left: 1380px;
+    border-radius: 30px;
+    border: 8px solid #e7eef6;
+    box-shadow: 0.3px 0.3px 3px 0.5px;
+    display: none;
+    
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 30px 20px;
+    margin-top: 10px;
+    list-style: none;
+    cursor: pointer;
+}
